@@ -13,7 +13,7 @@ jobs:
         uses: jvroberts/actions/package-manager-publish@package-manager-publish
         with:
           url: ${{ secrets.PPM_URL }}
-          api-key: ${{ secrets.PPM_API_TOKEN }}
+          api-token: ${{ secrets.PPM_API_TOKEN }}
           r-version: 4.2.0
           distro: jammy
           source: local
