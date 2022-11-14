@@ -1,4 +1,3 @@
-test_function <-
-function(x) {
-x * x
+test_function <- function(x) {
+  x * x
 }

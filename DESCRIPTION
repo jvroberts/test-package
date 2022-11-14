@@ -1,9 +1,9 @@
 Package: testPackage
 Type: Package
-Title: What the package does (short line)
+Title: Simple Package for Testing
 Version: 1.0
 Date: 2022-11-14
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Joe Roberts <jvroberts@gmail.com>
+Maintainer: Joe Roberts <jvroberts@gmail.com>
+Description: Just a dummy package that can be built.
+License: MIT + file LICENSE
