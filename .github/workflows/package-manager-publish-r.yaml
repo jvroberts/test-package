@@ -6,7 +6,7 @@ on:
 jobs:
   package-manager-publish-r:
     name: package-manager-publish-r
-    runs-on: ubuntu-22.04
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build and Publish to Package Manager
@@ -15,5 +15,5 @@ jobs:
           url: ${{ secrets.PPM_URL }}
           api-token: ${{ secrets.PPM_API_TOKEN }}
           r-version: release
-          #distro: jammy
+          distro: windows
           source: local
