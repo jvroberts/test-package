@@ -23,4 +23,4 @@ Maintainer: \packageMaintainer{testPackage}
 \keyword{ package }
 \examples{
 test_function(2)
-
+}
