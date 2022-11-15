@@ -15,6 +15,5 @@ jobs:
           url: ${{ secrets.PPM_URL }}
           api-token: ${{ secrets.PPM_API_TOKEN }}
           r-version: release
-          distro: jammy
+          #distro: jammy
           source: local
-          binary: false
