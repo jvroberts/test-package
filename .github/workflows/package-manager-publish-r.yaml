@@ -17,3 +17,4 @@ jobs:
           r-version: release
           distro: jammy
           source: local
+          binary: false
